@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 600px;
     height: 350px;
-    background-color: #ccc;
+    background-color: #02b019;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -43,14 +43,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background:#d83133;
+    background:rgb(255, 0, 0);
     clip-path: circle(120px at center);
     transition:0.5s;
 
 }
 .card .circle:hover::before
 {
-    background-color:#00e025;
+    background-color:rgb(255, 0, 0);
     clip-path: circle(400px at center)
 }
 .card img
